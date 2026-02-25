@@ -13,6 +13,15 @@ For a more detailed analysis read the pdf reports!
 - **ANN Methods**: LSH, Hypercube LSH, IVF-Flat, IVF-PQ, Neural LSH
 - **Evaluation**: Recall@N vs BLAST Top-N, QPS (queries/second)
 - **Biological Validation**: UniProt/Pfam/GO annotation overlap for remote homology detection
+  
+## Primary Datasets
+
+
+| Dataset           | File              | Description                          | Size              |
+| ----------------- | ----------------- | ------------------------------------ | ----------------- |
+| **SwissProt**     | `swissprot.fasta` | Main protein database (ground truth) | ~570,000 proteins |
+| **Query Targets** | `targets.fasta`   | Test queries for evaluation          | 112 queries       |
+
 
 ## Quick Start
 
