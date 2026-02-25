@@ -28,11 +28,26 @@ python protein_search.py \
   --method all \
   --run_blast --db_fasta data/swissprot.fasta
 
+## Performance Comparison
+
+| Method     | Avg Recall@50 | QPS   | Best For           |
+| ---------- | ------------- | ----- | ------------------ |
+| Neural LSH | 0.35          | 1,648 | Accuracy           |
+| IVF-Flat   | 0.33          | 2,146 | Balance            |
+| IVF-PQ     | 0.32          | 2,839 | Speed/Memory       |
+| Hypercube  | 0.21          | 3,291 | Maximum throughput |
+
 ## Dependencies
-Python 3.8+, PyTorch, fair-esm
-NCBI BLAST+ (for ground truth)
-NumPy, scikit-learn, tqdm
+
+* **Python 3.8+**
+* **PyTorch**
+* **fair-esm**
+* **NCBI BLAST+** (for ground truth)
+* **NumPy**
+* **scikit-learn**
+* **tqdm**
 
 ## Authors
-Ioannis Petrakis
-Ioannis Nikolopoulos
+
+* **Ioannis Nikolopoulos** (sdi2100292)
+* **Ioannis Petrakis** (sdi1900155)
