@@ -4,7 +4,8 @@ Fast similarity search for protein sequences using ESM-2 embeddings and Approxim
 
 ## Overview
 
-This project implements efficient protein retrieval in embedding space using [ESM-2](https://github.com/facebookresearch/esm) protein language models, comparing multiple ANN algorithms (LSH, Hypercube, IVF-Flat, IVF-PQ, Neural LSH) against BLAST baseline for detecting **remote homologs**—proteins with low sequence identity (&lt;30%) but conserved structure/function.
+This project implements efficient protein retrieval in embedding space using [ESM-2](https://github.com/facebookresearch/esm) protein language models, comparing multiple ANN algorithms (LSH, Hypercube, IVF-Flat, IVF-PQ, Neural LSH) against BLAST baseline for detecting **remote homologs**—proteins with low sequence identity (<30%) but conserved structure/function.
+For a more detailed analysis read the pdf reports!
 
 ## Key Features
 
@@ -27,6 +28,7 @@ python protein_search.py \
   -q data/targets.fasta \
   --method all \
   --run_blast --db_fasta data/swissprot.fasta
+```
 
 ## Performance Comparison
 
@@ -49,5 +51,8 @@ python protein_search.py \
 
 ## Authors
 
-* **Ioannis Nikolopoulos** (sdi2100292)
-* **Ioannis Petrakis** (sdi1900155)
+* **Ioannis Petrakis** * **Ioannis Nikolopoulos** ````
+
+***
+
+Would you like me to help you add any badges (like build status or Python version) to the top of the README?
