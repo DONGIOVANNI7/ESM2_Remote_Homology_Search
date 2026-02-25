@@ -51,8 +51,7 @@ python protein_search.py \
 
 ## Authors
 
-* **Ioannis Petrakis** * **Ioannis Nikolopoulos** ````
+* **Ioannis Petrakis**   **Ioannis Nikolopoulos** 
 
 ***
 
-Would you like me to help you add any badges (like build status or Python version) to the top of the README?
